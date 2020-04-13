@@ -57,7 +57,6 @@ class ViewController: UIViewController {
         task.resume()
     }
 }
-
 /*
  NSString *pasaParams = [NSString stringWithFormat:PASA_ELIGIBILTY_PARAMS, self.objUserDataModel.policyId, self.customerIdStr];
  NSString *serviceUrl = [NSString stringWithFormat:@"%@", PASA_ELIGIBILITY_SERVICENAME];
