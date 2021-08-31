@@ -1,0 +1,20 @@
+PODS:
+  - RAMAnimatedTabBarController (5.2.0)
+  - TransitionButton (0.5.3)
+
+DEPENDENCIES:
+  - RAMAnimatedTabBarController
+  - TransitionButton
+
+SPEC REPOS:
+  trunk:
+    - RAMAnimatedTabBarController
+    - TransitionButton
+
+SPEC CHECKSUMS:
+  RAMAnimatedTabBarController: 6863a386e7ae2ab227cd60aa73ab8ff56cdacfdd
+  TransitionButton: 36283346e17c64775a1b3bc3a7a72940a367de1f
+
+PODFILE CHECKSUM: 489a12fe585a6a44a0886f526934ad6f5f261f33
+
+COCOAPODS: 1.10.0

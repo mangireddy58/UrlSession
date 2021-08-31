@@ -15,6 +15,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        #if DEV
+        print("Development")
+        
+        #elseif PROD
+        print("Production")
+        
+        #elseif QA
+        print("QA")
+        
+        #endif
+        
         window?.makeKeyAndVisible()
         
         return true
